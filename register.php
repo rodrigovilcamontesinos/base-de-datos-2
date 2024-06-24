@@ -89,5 +89,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <a href="login.php" class="btn btn-secondary">¿Ya tienes una cuenta? Inicia Sesión</a>
         </div>
     </div>
+    <footer class="footer">
+        <p>&copy; 2024 Sistema de Gestión Hotelera</p>
+    </footer>
 </body>
 </html>

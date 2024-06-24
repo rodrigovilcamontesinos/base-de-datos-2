@@ -49,4 +49,7 @@ while ($reserva = $reservas->fetch_assoc()) {
         });
     </script>
 </body>
+<footer class="footer">
+        <p>&copy; 2024 Sistema de Gestión Hotelera</p>
+    </footer>
 </html>
