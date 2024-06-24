@@ -68,5 +68,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
         </form>
     </div>
+    <footer class="footer">
+        <p>&copy; 2024 Sistema de Gestión Hotelera</p>
+    </footer>
 </body>
 </html>

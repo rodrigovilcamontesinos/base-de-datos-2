@@ -1,0 +1,56 @@
+/* Estilo base */
+h1{
+    color: #000;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Color de fondo general */
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 2.5em;
+    margin-top: 100px; /* Ajuste para espacio desde la parte superior */
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Media Query para pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+    .main-title {
+        font-size: 2em;
+    }
+
+    .button {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+}

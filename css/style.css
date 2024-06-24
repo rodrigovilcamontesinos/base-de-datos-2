@@ -50,3 +50,26 @@ body, html {
     bottom: 0;
     left: 0;
 }
+
+h1 {
+    background-color: #007bff; /* Mismo color de fondo que el footer */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 0; /* Elimina el margen superior predeterminado del h1 */
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .footer {
+        padding: 8px 0;
+    }
+
+    h1 {
+        padding: 15px;
+    }
+}
